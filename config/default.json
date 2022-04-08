@@ -1,0 +1,63 @@
+{
+    "sandbox": false,
+    "max_open_trades": 3,
+    "stake_currency": "USDT",
+    "stake_amount": "unlimited",
+    "tradable_balance_ratio": 0.8,
+    "fiat_display_currency": "USD",
+    "last_stake_amount_min_ratio": 0.2,
+    "timeframe": "5m",
+    "klimit": 500,
+    "cancel_open_orders_on_exit": true,
+    "exchange": {
+        "name": "binance",
+        "api_key": "",
+        "api_secret": "",
+        "sandbox_key":"",
+        "sandbox_secret": "",
+        "sandbox_api" : "https://testnet.binance.vision/api",
+        "pairs": [
+            "1INCH/BUSD",
+            "AAVE/BUSD",
+            "ACM/BUSD",
+            "ADA/BUSD",
+            "ADX/BUSD",
+            "EOS/BUSD",
+            "CTXC/BUSD",
+            "RAMP/BUSD",
+            "NULS/BUSD",
+            "OM/BUSD",
+            "SLP/BUSD",
+            "MINA/BUSD",
+            "CELO/BUSD",
+            "ACA/BUSD",
+            "GLMR/BUSD",
+            "COCOS/BUSD",
+            "COTI/BUSD",
+            "ORN/BUSD",
+            "WRX/BUSD",
+            "NEAR/BUSD",
+            "JASMY/BUSD",
+            "MKR/BUSD",
+            "TVK/BUSD",
+            "EPS/BUSD",
+            "CHR/BUSD",
+            "XNO/BUSD",
+            "XMR/BUSD",
+            "LUNA/BUSD",
+            "API3/BUSD"
+        ],
+        "blacklist": [
+            "BNB/BUSD"
+        ]
+    },
+    "pairlists": [
+        {"method": "StaticPairList"},
+        {"method": "AgeFilter", "min_days_listed": 30}
+    ],
+    "bot_name": "deniz-bot",
+    "initial_state": "running",
+    "internals": {
+        "process_throttle_secs": 5
+    }
+}
