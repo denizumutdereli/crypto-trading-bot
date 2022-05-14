@@ -59,10 +59,10 @@ if __name__ == '__main__':
 
     exit()
     #Welcome screen
-    helpers.loading(5, '[cyan]HCISS Trading bot starting...[/cyan]')
+    helpers.loading(5, '[cyan]Trading bot starting...[/cyan]')
     helpers.clear()
     play("info")
-    cprint(figlet_format('HCISS', font='starwars'),
+    cprint(figlet_format('aBot', font='starwars'),
        'white', 'on_blue', attrs=['bold'])
  
     #variables
