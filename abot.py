@@ -1,4 +1,4 @@
-## HCISS Binance Trading Bot
+## Crypto Trading Bot
 # @denizumutdereli
 #OOP env. UNDER CONSTRUCTION. 
 ##
