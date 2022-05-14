@@ -1,1 +1,1 @@
-# hciss-trading-bot
+# crypto-trading-bot
